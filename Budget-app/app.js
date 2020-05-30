@@ -211,7 +211,7 @@ var UIController = (function () {
     return {
         getInput: function () {
             return {
-                type: document.querySelector(DOMstrings.inputType).value,
+                typße: document.querySelector(DOMstrings.inputType).value,
                 description: document.querySelector(DOMstrings.inputDescription).value,
                 value: parseFloat(document.querySelector(DOMstrings.inputValue).value)
             };
